@@ -1,0 +1,42 @@
+[
+    {
+        "id": 10931,
+        "probability": 10,
+        "rarity": "one"
+    },
+    {
+        "id": 10932,
+        "probability": 45,
+        "rarity": "two"
+    },
+    {
+        "id": 10933,
+        "probability": 270,
+        "rarity": "three"
+    },
+    {
+        "id": 10934,
+        "probability": 270,
+        "rarity": "three"
+    },
+    {
+        "id": 10935,
+        "probability": 45,
+        "rarity": "two"
+    },
+    {
+        "id": 10936,
+        "probability": 45,
+        "rarity": "two"
+    },
+    {
+        "id": 10937,
+        "probability": 270,
+        "rarity": "three"
+    },
+    {
+        "id": 10938,
+        "probability": 45,
+        "rarity": "two"
+    }
+]

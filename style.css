@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4a63f3;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #364ad9;
+}
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    max-width: 880px;
+    /* 160 * 5 + 4 * 20px gaps */
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.results.single {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: none;
+}
+
+.card {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border: 6px solid transparent;
+}
+
+.card.one {
+    border-color: red;
+}
+
+.card.two {
+    border-color: gold;
+}
+
+.card.three {
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#drawNumber {
+    color: gold;
+    font-weight: bold;
+    background-color: gray;
+    border-radius: 4px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TOS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>抽卡模擬器</h1>
+    <button onclick="drawCards(1)">1抽</button>
+    <button onclick="drawCards(10)">10抽</button>
+
+    <div id="drawCount" style="font-weight: bold; text-align: center; margin-bottom: 20px;">
+        離保底還剩 <span id="drawNumber">35</span> 抽
+    </div>
+
+    <div class="results" id="results"></div>
+
+    <!-- Import JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
