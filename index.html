@@ -4,12 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <title>TOS</title>
+    <!-- Import CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <h1>抽卡模擬器</h1>
+    <nav class="navbar">
+        <div class="nav-logo">抽卡模擬器</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">抽卡</a></li>
+            <li><a href="#">統計</a></li>
+        </ul>
+        <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+    </nav>
     <button onclick="drawCards(1)">1抽</button>
     <button onclick="drawCards(10)">10抽</button>
 
